@@ -26,6 +26,8 @@
       "summary": { "en": "Kiro Free, Pro, Pro+ and Power — Kiro's sign-in, kiro-cli's, or an API key.", "zh": "Kiro Free、Pro、Pro+ 与 Power：Kiro 登录、沿用 kiro-cli 的登录，或 API key。" } },
     { "package": "@magpie-community/opencode-minimax-auth", "name": "MiniMax Code", "icon": "minimax-color", "providers": ["minimax-code", "minimax-code-global"], "community": true,
       "summary": { "en": "MiniMax Code account credits (daily check-in) and M Plan, with MiniMax Code's own device sign-in.", "zh": "用 MiniMax Code 账号的积分（每日签到）与 M Plan，使用 MiniMax Code 自己的设备登录。" } },
+    { "package": "@magpie-community/opencode-teleagent-auth", "name": "TeleAgent", "icon": "https://raw.githubusercontent.com/magpie-community/plugins/main/packages/teleagent/icon.png", "providers": ["teleagent"], "community": true,
+      "summary": { "en": "TeleAgent (China Telecom teleai) chats through its own relay with a per-request signature, and reports its own points by source.", "zh": "用本机 TeleAgent（电信 teleai）桌面端的登录态走它自己的中继与逐请求签名，并按来源报告它自己的积分。" } },
     { "package": "@magpie-community/opencode-workbuddy-auth", "name": "WorkBuddy", "icon": "workbuddy-color", "providers": ["workbuddy", "workbuddy-ai"], "community": true, "replaces": "workbuddy",
       "summary": { "en": "WorkBuddy's China build (CodeBuddy plan) and its international build.", "zh": "WorkBuddy 国内版（CodeBuddy 套餐）与国际版。" } },
     { "package": "@magpie-community/opencode-cline-auth", "name": "Cline", "icon": "cline", "providers": ["cline"], "community": true,
