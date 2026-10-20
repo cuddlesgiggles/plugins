@@ -20,6 +20,9 @@
     "llm-gateway"
   ],
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magpie-community/plugins.git",
